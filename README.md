@@ -34,7 +34,7 @@ Before starting, ensure you have:
 ### Installation and Setup
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/dduwa/ocular-disease-recognition-system.git
+git clone https://github.com/dduwa/OccuscanAI.git
 ```
 2. **Access the ODIR-5K dataset:** Navigate to the provided Kaggle link and download the dataset.
 3. **Prepare the kaggle.json file:** Follow the instructions on Kaggle for generating and downloading your API key (kaggle.json). This file is crucial for accessing the dataset from within the notebooks. There is also a kaggle.json file already available for use aswell in the repository
@@ -52,5 +52,3 @@ To enhance the transparency of the model predictions, there is implementation of
 - **RandomSamplingModels** folder: Has the implementation of using random sampling in attempts to increase model accuracy. 
 - **JupyterNotebookInVSImplementations** folder: Contains the implementation of the notebooks in Visual Studio Code, before switching to Google Colab after issues with running out of computational resources. 
 
-## Authors
-- **[Duwa Khan](https://github.com/dduwa)**
