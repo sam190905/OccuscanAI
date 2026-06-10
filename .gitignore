@@ -1,0 +1,77 @@
+# ==========================
+# Dataset
+# ==========================
+dataset/
+data/
+datasets/
+
+# ==========================
+# Model Weights
+# ==========================
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+
+# ==========================
+# Kaggle Credentials
+# ==========================
+kaggle.json
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Python Cache
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Generated Results
+# ==========================
+Gradcam results/
+Lime results/
+Shap results/
+K_Fold_Cross_Validation_Attempt/
+RandomSamplingModels/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# System Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Temporary Files
+# ==========================
+temp/
+tmp/
+*.tmp
